@@ -1,13 +1,13 @@
 pragma solidity 0.6.6;
 
 // ----------------------------------------------------------------------------
-'PGGYToken' token contract
+// 'PGGYToken' token contract
 //
-// Deployed to : 0xFEB02D9383C49A8373F88e82EbCecB553c1837bf
+// Deployed to : 0x0A71A60CCbbAA1BB7F86d7750DE67Cf6A0d182CA
 // Symbol      : PGGY
 // Name        : PGGYToken
-// Total supply: 100000000
-// Decimals    : 18
+// Total supply: 11638860211000000000000000000
+// Decimals    : 0
 //
 // Enjoy.
 //
