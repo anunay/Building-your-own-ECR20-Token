@@ -1,11 +1,11 @@
 pragma solidity 0.6.6;
 
 // ----------------------------------------------------------------------------
-// 'GGMToken' token contract
+'PGGYToken' token contract
 //
-// Deployed to : 0xFEB02D9383C49A8373F88e82EbCecB553c1837bf
-// Symbol      : GGM
-// Name        : GGMToken
+Deployed to : 0xFEB02D9383C49A8373F88e82EbCecB553c1837bf
+Symbol      : PGGY
+Name        : PGGYToken
 // Total supply: 100000000
 // Decimals    : 18
 //
@@ -99,7 +99,7 @@ contract Owned {
 // ERC20 Token, with the addition of symbol, name and decimals and assisted
 // token transfers
 // ----------------------------------------------------------------------------
-contract GGMToken is ERC20Interface, Owned, SafeMath {
+contract PGGYToken is ERC20Interface, Owned, SafeMath {
     string public symbol;
     string public  name;
     uint8 public decimals;
@@ -113,12 +113,12 @@ contract GGMToken is ERC20Interface, Owned, SafeMath {
     // Constructor
     // ------------------------------------------------------------------------
     constructor() public {
-        symbol = "CCM";
-        name = "CCMToken";
+        symbol = "PGGY";
+        name = "PGGYToken";
         decimals = 0;
-        _totalSupply = 100000000;
-        balances[0x4B6408E5De3D348C0cd571E67Aa2dDBDe563AD58] = _totalSupply;
-        emit Transfer(address(0), 0x4B6408E5De3D348C0cd571E67Aa2dDBDe563AD58, _totalSupply);
+        _totalSupply = 11638860211000000000000000000;
+        balances[0x0A71A60CCbbAA1BB7F86d7750DE67Cf6A0d182CA] = _totalSupply;
+        emit Transfer(address(0), 0x0A71A60CCbbAA1BB7F86d7750DE67Cf6A0d182CA, _totalSupply);
     }
 
 
